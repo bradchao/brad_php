@@ -1,6 +1,6 @@
 <?php 
 	date_default_timezone_set('Asia/Taipei');
-	$result = '';
+	$result = $x = $y = '';
 	if ( isset($_GET['x']) ){
 		$x = $_GET['x']; $y = $_GET['y'];
 		$result = $x + $y;
